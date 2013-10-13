@@ -58,14 +58,13 @@
     
     NSString *string = [[NSString alloc] initWithData: data encoding: NSUTF8StringEncoding];
     
-    NSLog (@"lama returned:\n%@", string);
-    
-    NSUserNotification *notification = [[NSUserNotification alloc] init];
-    notification.title = @"Screenshot URL Copied!";
-    notification.informativeText = string;
-    
-    [[NSUserNotificationCenter defaultUserNotificationCenter] deliverNotification:notification];
-
+    if (string.length) {
+        NSUserNotification *notification = [[NSUserNotification alloc] init];
+        notification.title = @"Screenshot URL Copied!";
+        notification.informativeText = string;
+        
+        [[NSUserNotificationCenter defaultUserNotificationCenter] deliverNotification:notification];
+    }
 }
 
 - (void)terminate:(id)sender
