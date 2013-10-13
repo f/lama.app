@@ -3,7 +3,7 @@ LAMAHelper
 
 OS X Application Helper for emre/lama
 
-You can **[download](raw/master/build/LAMAHelper.app.zip)** the Application.
+You can **[download](https://github.com/f/LAMAHelper/raw/master/build/LAMAHelper.app.zip)** the Application.
 
 ## Screenshots
 
