@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "188477AE1780581900FAA58D"
-               BuildableName = "LAMAHelper.app"
-               BlueprintName = "LAMAHelper"
-               ReferencedContainer = "container:LAMAHelper.xcodeproj">
+               BuildableName = "Lama.app"
+               BlueprintName = "Lama"
+               ReferencedContainer = "container:Lama.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "188477AE1780581900FAA58D"
-            BuildableName = "LAMAHelper.app"
-            BlueprintName = "LAMAHelper"
-            ReferencedContainer = "container:LAMAHelper.xcodeproj">
+            BuildableName = "Lama.app"
+            BlueprintName = "Lama"
+            ReferencedContainer = "container:Lama.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -52,9 +52,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "188477AE1780581900FAA58D"
-            BuildableName = "LAMAHelper.app"
-            BlueprintName = "LAMAHelper"
-            ReferencedContainer = "container:LAMAHelper.xcodeproj">
+            BuildableName = "Lama.app"
+            BlueprintName = "Lama"
+            ReferencedContainer = "container:Lama.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -70,9 +70,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "188477AE1780581900FAA58D"
-            BuildableName = "LAMAHelper.app"
-            BlueprintName = "LAMAHelper"
-            ReferencedContainer = "container:LAMAHelper.xcodeproj">
+            BuildableName = "Lama.app"
+            BlueprintName = "Lama"
+            ReferencedContainer = "container:Lama.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

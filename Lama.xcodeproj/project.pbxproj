@@ -17,19 +17,21 @@
 		189358321780E67E00337E8B /* lamahelper-logo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 189358301780E67E00337E8B /* lamahelper-logo@2x.png */; };
 		189358351780E6D900337E8B /* lamahelper-logo-alt.png in Resources */ = {isa = PBXBuildFile; fileRef = 189358331780E6D900337E8B /* lamahelper-logo-alt.png */; };
 		189358361780E6D900337E8B /* lamahelper-logo-alt@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 189358341780E6D900337E8B /* lamahelper-logo-alt@2x.png */; };
+		4485FC74180B60CA009FD6DD /* lamahelper-logo-progress@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4485FC73180B60CA009FD6DD /* lamahelper-logo-progress@2x.png */; };
+		4485FC76180B60D5009FD6DD /* lamahelper-logo-progress.png in Resources */ = {isa = PBXBuildFile; fileRef = 4485FC75180B60D5009FD6DD /* lamahelper-logo-progress.png */; };
+		448C81461813E60D0051D606 /* Lama-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 448C81451813E60C0051D606 /* Lama-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		184E96661780C78E00EF30C9 /* LAMAHelper.iconset */ = {isa = PBXFileReference; lastKnownFileType = folder.iconset; path = LAMAHelper.iconset; sourceTree = "<group>"; };
 		185910571780AFB700A974FA /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
-		188477AF1780581900FAA58D /* LAMAHelper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LAMAHelper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		188477AF1780581900FAA58D /* Lama.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lama.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		188477B21780581900FAA58D /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		188477B51780581900FAA58D /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		188477B61780581900FAA58D /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		188477B71780581900FAA58D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		188477BA1780581900FAA58D /* LAMAHelper-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LAMAHelper-Info.plist"; sourceTree = "<group>"; };
 		188477BE1780581900FAA58D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		188477C01780581900FAA58D /* LAMAHelper-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LAMAHelper-Prefix.pch"; sourceTree = "<group>"; };
+		188477C01780581900FAA58D /* Lama-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Lama-Prefix.pch"; sourceTree = "<group>"; };
 		188477C41780581900FAA58D /* LAMAAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LAMAAppDelegate.h; sourceTree = "<group>"; };
 		188477C51780581900FAA58D /* LAMAAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LAMAAppDelegate.m; sourceTree = "<group>"; };
 		188477C81780581900FAA58D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
@@ -37,6 +39,9 @@
 		189358301780E67E00337E8B /* lamahelper-logo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "lamahelper-logo@2x.png"; sourceTree = "<group>"; };
 		189358331780E6D900337E8B /* lamahelper-logo-alt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "lamahelper-logo-alt.png"; sourceTree = "<group>"; };
 		189358341780E6D900337E8B /* lamahelper-logo-alt@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "lamahelper-logo-alt@2x.png"; sourceTree = "<group>"; };
+		4485FC73180B60CA009FD6DD /* lamahelper-logo-progress@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "lamahelper-logo-progress@2x.png"; sourceTree = "<group>"; };
+		4485FC75180B60D5009FD6DD /* lamahelper-logo-progress.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "lamahelper-logo-progress.png"; sourceTree = "<group>"; };
+		448C81451813E60C0051D606 /* Lama-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Lama-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,7 +69,7 @@
 		188477B01780581900FAA58D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				188477AF1780581900FAA58D /* LAMAHelper.app */,
+				188477AF1780581900FAA58D /* Lama.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -103,14 +108,16 @@
 		188477B91780581900FAA58D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				448C81451813E60C0051D606 /* Lama-Info.plist */,
 				188477BE1780581900FAA58D /* main.m */,
-				188477C01780581900FAA58D /* LAMAHelper-Prefix.pch */,
-				188477BA1780581900FAA58D /* LAMAHelper-Info.plist */,
+				188477C01780581900FAA58D /* Lama-Prefix.pch */,
 				184E96661780C78E00EF30C9 /* LAMAHelper.iconset */,
 				1893582F1780E67E00337E8B /* lamahelper-logo.png */,
 				189358301780E67E00337E8B /* lamahelper-logo@2x.png */,
 				189358331780E6D900337E8B /* lamahelper-logo-alt.png */,
 				189358341780E6D900337E8B /* lamahelper-logo-alt@2x.png */,
+				4485FC75180B60D5009FD6DD /* lamahelper-logo-progress.png */,
+				4485FC73180B60CA009FD6DD /* lamahelper-logo-progress@2x.png */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -118,9 +125,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		188477AE1780581900FAA58D /* LAMAHelper */ = {
+		188477AE1780581900FAA58D /* Lama */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 188477CC1780581900FAA58D /* Build configuration list for PBXNativeTarget "LAMAHelper" */;
+			buildConfigurationList = 188477CC1780581900FAA58D /* Build configuration list for PBXNativeTarget "Lama" */;
 			buildPhases = (
 				188477AB1780581900FAA58D /* Sources */,
 				188477AC1780581900FAA58D /* Frameworks */,
@@ -130,9 +137,9 @@
 			);
 			dependencies = (
 			);
-			name = LAMAHelper;
+			name = Lama;
 			productName = LAMAHelper;
-			productReference = 188477AF1780581900FAA58D /* LAMAHelper.app */;
+			productReference = 188477AF1780581900FAA58D /* Lama.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -145,7 +152,7 @@
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = pyistanbul;
 			};
-			buildConfigurationList = 188477AA1780581900FAA58D /* Build configuration list for PBXProject "LAMAHelper" */;
+			buildConfigurationList = 188477AA1780581900FAA58D /* Build configuration list for PBXProject "Lama" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -157,7 +164,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				188477AE1780581900FAA58D /* LAMAHelper */,
+				188477AE1780581900FAA58D /* Lama */,
 			);
 		};
 /* End PBXProject section */
@@ -169,8 +176,11 @@
 			files = (
 				188477C91780581900FAA58D /* MainMenu.xib in Resources */,
 				184E96671780C78E00EF30C9 /* LAMAHelper.iconset in Resources */,
+				4485FC76180B60D5009FD6DD /* lamahelper-logo-progress.png in Resources */,
 				189358311780E67E00337E8B /* lamahelper-logo.png in Resources */,
+				4485FC74180B60CA009FD6DD /* lamahelper-logo-progress@2x.png in Resources */,
 				189358321780E67E00337E8B /* lamahelper-logo@2x.png in Resources */,
+				448C81461813E60D0051D606 /* Lama-Info.plist in Resources */,
 				189358351780E6D900337E8B /* lamahelper-logo-alt.png in Resources */,
 				189358361780E6D900337E8B /* lamahelper-logo-alt@2x.png in Resources */,
 			);
@@ -264,9 +274,9 @@
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "LAMAHelper/LAMAHelper-Prefix.pch";
-				INFOPLIST_FILE = "LAMAHelper/LAMAHelper-Info.plist";
-				PRODUCT_NAME = LAMAHelper;
+				GCC_PREFIX_HEADER = "LAMAHelper/Lama-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/LAMAHelper/Lama-Info.plist";
+				PRODUCT_NAME = Lama;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -276,9 +286,9 @@
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "LAMAHelper/LAMAHelper-Prefix.pch";
-				INFOPLIST_FILE = "LAMAHelper/LAMAHelper-Info.plist";
-				PRODUCT_NAME = LAMAHelper;
+				GCC_PREFIX_HEADER = "LAMAHelper/Lama-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/LAMAHelper/Lama-Info.plist";
+				PRODUCT_NAME = Lama;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -286,7 +296,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		188477AA1780581900FAA58D /* Build configuration list for PBXProject "LAMAHelper" */ = {
+		188477AA1780581900FAA58D /* Build configuration list for PBXProject "Lama" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				188477CA1780581900FAA58D /* Debug */,
@@ -295,7 +305,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		188477CC1780581900FAA58D /* Build configuration list for PBXNativeTarget "LAMAHelper" */ = {
+		188477CC1780581900FAA58D /* Build configuration list for PBXNativeTarget "Lama" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				188477CD1780581900FAA58D /* Debug */,

@@ -26,11 +26,11 @@
 
 - (void)setupStatusItem
 {
-    _statusItem = [[NSStatusBar systemStatusBar] statusItemWithLength:NSVariableStatusItemLength];
-    _statusItem.title = @"";
-    _statusItem.image = [NSImage imageNamed:@"lamahelper-logo"];
-    _statusItem.alternateImage = [NSImage imageNamed:@"lamahelper-logo-alt"];
-    _statusItem.highlightMode = YES;
+    self.statusItem = [[NSStatusBar systemStatusBar] statusItemWithLength:NSVariableStatusItemLength];
+    self.statusItem.title = @"";
+    self.statusItem.image = [NSImage imageNamed:@"lamahelper-logo"];
+    self.statusItem.alternateImage = [NSImage imageNamed:@"lamahelper-logo-alt"];
+    self.statusItem.highlightMode = YES;
     [self setupMenu];
 }
 
@@ -38,8 +38,17 @@
 {
     NSMenu *menu = [[NSMenu alloc] init];
     [menu addItemWithTitle:@"Take screenshot" action:@selector(capture:) keyEquivalent:@""];
-    [menu addItemWithTitle:@"Quit Lama Helper" action:@selector(terminate:) keyEquivalent:@""];
+    [menu addItem:[NSMenuItem separatorItem]];
+    [menu addItemWithTitle:@"About Lama" action:@selector(about:) keyEquivalent:@""];
+    [menu addItemWithTitle:@"Quit Lama" action:@selector(terminate:) keyEquivalent:@""];
+
     self.statusItem.menu = menu;
+}
+
+- (void)about:(id)sender
+{
+    [[NSWorkspace sharedWorkspace] openURL:[NSURL URLWithString:@"https://github.com/f/lama.app"]];
+    [[NSWorkspace sharedWorkspace] openURL:[NSURL URLWithString:@"https://github.com/emre/lama"]];
 }
 
 - (void)capture:(id)sender
@@ -58,7 +67,9 @@
     
     NSString *string = [[NSString alloc] initWithData: data encoding: NSUTF8StringEncoding];
     
-    if (string.length) {
+    string = [string stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]];
+    
+    if (string.length > 0) {
         NSUserNotification *notification = [[NSUserNotification alloc] init];
         notification.title = @"Screenshot URL Copied!";
         notification.informativeText = string;
