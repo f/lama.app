@@ -11,7 +11,7 @@ If lama is installed somewhere else than `/usr/local/bin/lama` you can change
 the path using the following command:
 
 ```bash
-$ defaults write org.pyistanbul.LAMAHelper
+$ defaults write org.pyistanbul.LAMAHelper /path/to/lama
 ```
 
 ## Screenshots
