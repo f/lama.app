@@ -54,7 +54,12 @@
 - (void)capture:(id)sender
 {
     NSTask *task = [[NSTask alloc] init];
-    [task setLaunchPath: @"/usr/local/bin/lama"];
+    
+    NSString *lamaPath = [[NSUserDefaults standardUserDefaults] stringForKey:@"lama-path"];
+    if (lamaPath == nil) {
+        lamaPath = @"/usr/local/bin/lama";
+    }
+    [task setLaunchPath:lamaPath];
 
     NSPipe *pipe = [NSPipe pipe];
     [task setStandardOutput: pipe];
